@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CatPhotoApp </title>
+    </head>
+    <body>
+        <main>
+        <h1>CatPhotoApp</h1>
+        <hr />
+        <section>
+            <h2>Cat Photos</h2>
+            <hr />
+            <!-- TODO: Add link to cat photos -->
+            <p>See more <a target="_blank" href="https://www.google.com/search?q=cat+images&rlz=1C1PRFI_enIN1033IN1033&oq=cat+&gs_lcrp=EgZjaHJvbWUqDQgCEAAYgwEYsQMYgAQyBwgAEAAYjwIyCggBEAAYsQMYgAQyDQgCEAAYgwEYsQMYgAQyBwgDEAAYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDMzOTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">cat photos</a> in our gallery.</p>
+            <a><img height="230" width="320" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYYFhUjvNhBJ9SwQTv8X3PyQVtd-EejwOMQ&s" alt="A cute cat lying on its front.">
+            <img height="230" width="320" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK5CqiQQDLVEVd_mEtfKpqF8MTZj0SqiEEWg&s">
+            <img height="230" width="320" src="https://media.post.rvohealth.io/wp-content/uploads/sites/4/2022/08/hand-stroking-petting-tabby-cat-1296x728-header-1024x575.jpg"></a>
+        </section>
+        <hr />
+        <section>
+            <h2>Cat Lists</h2>
+            <hr />
+            <h3>Things cats love:</h3>
+            <li>cat nip</li>
+            <br>
+            <li>laser pointers</li>
+            <br>
+            <li>lasagna</li>
+            <figure>
+            <img height="230" width="345" src="https://static.miscota.com/media/1/photos/products/131045/cat-smelling-catnip-6400d4d86e03c_g.jpg">
+            <img height="230" width="345" src="https://publish.purewow.net/wp-content/uploads/sites/2/2019/01/cat-with-laser-pointer-600.jpg">
+            <img height="230" width="345" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+            </figure>
+            <hr />
+            <h3>Top 3 things cats hate:</h3>
+            <hr />
+            <ol>
+            <li>flea treatment</li>
+            <br/>
+            <li>thunder</li>
+            <br/>
+            <li>other cats</li>
+            </ol>
+            <figure>
+            <img height="230" width="300" src="https://images.ctfassets.net/8apmcah72qr6/ByqfsjltaGHWKbnJVANyU/49baeee8cb9f0359ca1b1256c69ff030/Post_24__1440___980px_.png?fit=pad&fm=png&fl=png8">
+            <img height="230" width="300" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+            </figure>
+        </section>
+        <hr />
+        <section>
+            <h2>Cat Form</h2>
+            <hr />
+            <!--<form action="https://freecatphotoapp.com/submit-cat-photo">-->
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" > Indoor</label>
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" name="personality" value="loving" > <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <br />
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+            <br/><br/>
+            <!--</form>-->
+        </section>
+        </main>
+    </body>
+    </html>
