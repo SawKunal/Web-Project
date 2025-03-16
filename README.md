@@ -73,5 +73,4 @@ Feel free to fork this repository and contribute by improving existing projects 
 
 ---
 
-Made with ❤️ by [Your Name]
 
